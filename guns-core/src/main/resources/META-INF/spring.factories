@@ -1,0 +1,8 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.javaedge.guns.core.base.controller.GlobalController,\
+com.javaedge.guns.core.config.DefaultFastjsonConfig,\
+com.javaedge.guns.core.config.MultiDataSourceConfig,\
+com.javaedge.guns.core.config.SingleDataSourceConfig,\
+com.javaedge.guns.core.config.DefaultProperties,\
+com.javaedge.guns.core.config.DefaultWebConfig
