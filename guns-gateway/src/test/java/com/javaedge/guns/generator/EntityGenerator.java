@@ -29,7 +29,8 @@ public class EntityGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("D:\\tmp\\guns\\guns-rest\\src\\main\\java");//这里写你自己的java目录
+        gc.setOutputDir("\\Volumes\\doc\\IDEAProjects\\Dubbo实战购票平台\\源码\\用户模块\\guns\\guns-rest\\src\\main\\java");
+        //这里写你自己的java目录
         gc.setFileOverride(true);//是否覆盖
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
